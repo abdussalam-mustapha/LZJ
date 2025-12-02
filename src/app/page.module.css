@@ -63,6 +63,10 @@
   color: var(--foreground);
 }
 
+.goldText {
+  color: #D4AF37;
+}
+
 .aboutText p {
   font-size: 1.125rem;
   line-height: 1.7;

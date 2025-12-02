@@ -31,9 +31,9 @@ export default function Home() {
       <Section id="about" variant="light">
         <div className={styles.aboutContent}>
           <div className={styles.aboutText}>
-            <h2>About LZJ_ESOL’N</h2>
+            <h2 className={styles.goldText}>About LZJ_ESOL'N</h2>
             <p>
-              We’re building the backbone of smarter, more adaptive businesses across Africa by transforming how organizations collect, manage, and utilize data. Our work focuses on eliminating inefficiencies in business operations through intelligent, scalable software that enables clarity, accountability, and performance.
+              We're building the backbone of smarter, more adaptive businesses across Africa by transforming how organizations collect, manage, and utilize data. Our work focuses on eliminating inefficiencies in business operations through intelligent, scalable software that enables clarity, accountability, and performance.
             </p>
             <p>
               Our long-term vision is to set new standards for operational excellence in Africa by leveraging technology not just as a tool, but as a driver of transformation.
@@ -62,16 +62,16 @@ export default function Home() {
         </div>
 
         <div className={styles.servicesGrid}>
-          <Card title="Dashboards" imageSrc="/dashboard.png" imageAlt="Business dashboard with KPIs and analytics">
+          <Card title="Dashboards" imageSrc="/dashboard.png" imageAlt="Business dashboard with KPIs and analytics" goldTitle>
             Real-time visualization of your business KPIs. Gain clarity and insight into your operations with our custom dashboards.
           </Card>
-          <Card title="Portals" imageSrc="/portal.png" imageAlt="Secure client portal interface">
+          <Card title="Portals" imageSrc="/portal.png" imageAlt="Secure client portal interface" goldTitle>
             Secure client and employee portals that streamline communication and data sharing.
           </Card>
-          <Card title="Inventory Management" imageSrc="/inventory.png" imageAlt="Inventory management system">
+          <Card title="Inventory Management" imageSrc="/inventory.png" imageAlt="Inventory management system" goldTitle>
             Smart inventory systems that track stock levels, predict demand, and automate reordering.
           </Card>
-          <Card title="AI Integration" imageSrc="/ai.png" imageAlt="AI and machine learning interface">
+          <Card title="AI Integration" imageSrc="/ai.png" imageAlt="AI and machine learning interface" goldTitle>
             Leverage AI to automate workflows and build intelligent decision systems that learn from business behavior.
           </Card>
         </div>

@@ -8,9 +8,10 @@ interface CardProps {
     className?: string;
     imageSrc?: string;
     imageAlt?: string;
+    goldTitle?: boolean;
 }
 
-export const Card: React.FC<CardProps> = ({ title, children, className = '', imageSrc, imageAlt }) => {
+export const Card: React.FC<CardProps> = ({ title, children, className = '', imageSrc, imageAlt, goldTitle = false }) => {
     return (
         <div className={`${styles.card} ${className}`}>
             {imageSrc && (
@@ -24,7 +25,7 @@ export const Card: React.FC<CardProps> = ({ title, children, className = '', ima
                     />
                 </div>
             )}
-            {title && <h3 className={styles.title}>{title}</h3>}
+            {title && <h3 className={`${styles.title} ${goldTitle ? styles.goldTitle : ''}`}>{title}</h3>}
             <div className={styles.description}>{children}</div>
         </div>
     );
