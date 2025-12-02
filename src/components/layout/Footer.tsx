@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.column}>
-                    <h3>LZJ_ESOL’N</h3>
+                    <h3 className={styles.goldHeading}>LZJ_ESOL’N</h3>
                     <p>
                         Building the backbone of smarter, more adaptive businesses across Africa.
                     </p>

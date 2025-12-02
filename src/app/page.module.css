@@ -93,6 +93,10 @@
   font-weight: 600;
 }
 
+.goldLabel {
+  color: #D4AF37;
+}
+
 .input,
 .textarea {
   width: 100%;

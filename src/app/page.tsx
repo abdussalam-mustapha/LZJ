@@ -90,7 +90,7 @@ export default function Home() {
       {/* Contact Section */}
       <Section id="contact" variant="light">
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Get in Touch</h2>
+          <h2 className={styles.goldText} style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Get in Touch</h2>
           <p style={{ fontSize: '1.25rem', color: 'var(--gray-800)' }}>
             Ready to transform your business? Let&apos;s talk.
           </p>
@@ -98,15 +98,15 @@ export default function Home() {
 
         <form className={styles.contactForm}>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="name">Name</label>
+            <label className={`${styles.label} ${styles.goldLabel}`} htmlFor="name">Name</label>
             <input type="text" id="name" className={styles.input} placeholder="Your Name" />
           </div>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="email">Email</label>
+            <label className={`${styles.label} ${styles.goldLabel}`} htmlFor="email">Email</label>
             <input type="email" id="email" className={styles.input} placeholder="your@email.com" />
           </div>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="message">Message</label>
+            <label className={`${styles.label} ${styles.goldLabel}`} htmlFor="message">Message</label>
             <textarea id="message" className={styles.textarea} placeholder="How can we help you?"></textarea>
           </div>
           <Button variant="primary" fullWidth type="submit">

@@ -19,6 +19,10 @@
     color: var(--accent);
 }
 
+.goldHeading {
+    color: #D4AF37 !important;
+}
+
 .column p {
     color: var(--gray-200);
     line-height: 1.6;
